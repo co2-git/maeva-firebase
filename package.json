@@ -1,0 +1,14 @@
+{
+  "name": "maeva-firebase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-env": "^2.4.1"
+  },
+  "scripts": {
+    "babel": "rm -rf dist; babel --out-dir dist src",
+    "babel:watch": "rm -rf dist; babel --watch --out-dir dist src"
+  }
+}
